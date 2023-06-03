@@ -1,0 +1,5 @@
+print('='*10, 'Aluguel de Carros', '='*10)
+distancia = float(input('Qual a distância percorrida em Km? '))
+tempo = int(input('Quanto tempo em dias você ficou com o carro?'))
+valor = (0.15*distancia)+(60*tempo)
+print('O valor total a se pagar pelo aluguel do veículo por {} Km percorridos e {} dias de uso foi de R${}.'.format(distancia, tempo, valor))
